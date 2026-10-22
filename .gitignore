@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+build/
+.vite/
+
+# Variables de entorno (nunca se versionan; usa los .env.example)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Logs y cachés
+*.log
+npm-debug.log*
+.cache/
+graphify-out/
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
